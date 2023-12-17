@@ -9,8 +9,8 @@ const Hero = () => {
   const themeColor = ThemeColor(theme);
 
   return (
-    <section className='flex items-center text-lg pl-5 overflow-hidden -mr-20'>
-      <div className='w-[55%]'>
+    <section className='flex items-end text-lg pl-5 overflow-hidden -mr-20'>
+      <div className='w-[55%] mb-10'>
         <span
           className={`inline-block text-2xl font-semibold leading-3 mb-4 ${
             themeColor !== undefined && themeColor['text-60']
